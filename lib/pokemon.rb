@@ -28,4 +28,5 @@ class Pokemon
     id, name, type = data
     Pokemon.new(id: id, name: name, type: type, db: db)
   end
+
 end
